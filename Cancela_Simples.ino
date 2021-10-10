@@ -13,9 +13,9 @@ void setup(){
 void loop(){
     val = digitalRead(bot);
     servo1.write(0);
-   /* if( val ==1){
+    if( val ==1){
     servo1.write(90);
       delay(5000);
       servo1.write(0);
-    }*/
+    }
 }
